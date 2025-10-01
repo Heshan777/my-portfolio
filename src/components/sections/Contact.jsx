@@ -2,6 +2,9 @@
 import React from 'react';
 import Section from '../layout/Section';
 import { MailIcon, GithubIcon, LinkedinIcon } from '../ui/Icons';
+import { FaGithub } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
 
 const ContactSection = ({ contact }) => (
   <Section id="contact" title="Get In Touch" icon={MailIcon}>
@@ -22,10 +25,13 @@ const ContactSection = ({ contact }) => (
 
       <div className="flex justify-center space-x-6 pt-4">
         <a href={`https://${contact.github}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-400 transition-colors">
-          <GithubIcon className="w-8 h-8" />
+          <FaGithub className="w-8 h-8" />
         </a>
         <a href={`https://${contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-400 transition-colors">
-          <LinkedinIcon className="w-8 h-8" />
+          <IoLogoLinkedin className="w-8 h-8" />
+        </a>
+        <a href={`https://${contact.facebook}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-400 transition-colors">
+          <FaFacebook className="w-8 h-8" />
         </a>
       </div>
     </div>

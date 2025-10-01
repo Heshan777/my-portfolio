@@ -12,16 +12,16 @@ export const PORTFOLIO_DATA = {
   ],
   projects: [
     {
-      title: "TaskFlow Pro",
-      description: "A comprehensive project management tool built with React, Redux Toolkit, and a Node.js/Express backend. Features include real-time collaboration and drag-and-drop interfaces.",
+      title: "InternLink project",
+      description: "Bridging the Gap Between Students and Companies This project tackles a critical challenge in the internship ecosystem – the disconnect between students seeking relevant opportunities and companies looking for qualified candidates",
       tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
-      link: "#"
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7373335846382395393/"
     },
     {
-      title: "Crypto Dashboard",
-      description: "A responsive finance dashboard providing real-time crypto data visualization using D3.js and a public API integration. Optimized for speed and mobile view.",
-      tags: ['React', 'D3.js', 'API', 'Data Viz'],
-      link: "#"
+      title: "Real-Time Face Recognition Web App",
+      description: "Real-Time Face Recognition Web App using Flask, OpenCV & MongoDB I built a full-stack face recognition web application with powerful real-time capabilities and smart automation features:",
+      tags: ['Python', 'Flask', 'OpenCV', 'HTML/CSS'],
+      link: "https://www.linkedin.com/in/sachintha-heshan-940a4b221/recent-activity/all/"
     },
     {
       title: "Portfolio v2",
@@ -31,8 +31,9 @@ export const PORTFOLIO_DATA = {
     },
   ],
   contact: {
-    email: "heshan.dev@example.com",
-    linkedin: "linkedin.com/in/heshan",
-    github: "github.com/heshan-dev",
+    email: "sachinthaweerakoon81@gmail.com",
+    linkedin: "www.linkedin.com/in/sachintha-heshan-940a4b221/recent-activity/all/",
+    github: "www.github.com/Heshan777",
+    facebook: "web.facebook.com/sachinthaheshan.weerakoon?_rdc=1&_rdr#",
   }
 };
