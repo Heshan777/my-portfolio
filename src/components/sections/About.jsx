@@ -5,7 +5,7 @@ import { UserIcon } from '../ui/Icons';
 
 const AboutSection = ({ about }) => (
   <Section id="about" title="About Me" icon={UserIcon}>
-    <p className="text-gray-300 text-lg leading-relaxed whitespace-pre-wrap">
+    <p className="text-gray-300 font-semibold leading-relaxed whitespace-pre-wrap text-2xl ">
       {about}
     </p>
   </Section>

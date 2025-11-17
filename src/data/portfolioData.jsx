@@ -4,7 +4,7 @@ export const PORTFOLIO_DATA = {
   name: "Heshan",
   title: "Full Stack Developer",
   tagline: "Building seamless, data-driven applications with React and Node.",
-  about: "I am a passionate Full Stack Developer specializing in the MERN stack. I focus on creating high-performance, accessible, and responsive user experiences using modern technologies like React and Tailwind CSS. My goal is to transform complex problems into elegant, production-ready solutions.",
+  about: " 🧑‍💻I am a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express, React, Node.js).         I focus on creating high-performance, accessible, and responsive user experiences using modern technologies like React and Tailwind CSS. My main goal is to transform complex problems into elegant, production-ready solutions.I am currently pursuing a Bict (Hons) Specialized in Software Technology degree at the University of Sri Jayewardenepura, Faculty of Technology. With an academic foundation rooted in technology (2A, 1B in my A/L Technology stream from Kingswood College), I am also a Machine Learning enthusiast and base my current projects on the MERN stack combined with machine learning concepts.",
   skills: [
     { category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Redux', 'Next.js'] },
     { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'REST APIs', 'GraphQL'] },
