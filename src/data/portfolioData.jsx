@@ -4,12 +4,37 @@ export const PORTFOLIO_DATA = {
   name: "Heshan",
   title: "Full Stack Developer",
   tagline: "Building seamless, data-driven applications with React and Node.",
-  about: " 🧑‍💻I am a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express, React, Node.js).         I focus on creating high-performance, accessible, and responsive user experiences using modern technologies like React and Tailwind CSS. My main goal is to transform complex problems into elegant, production-ready solutions.I am currently pursuing a Bict (Hons) Specialized in Software Technology degree at the University of Sri Jayewardenepura, Faculty of Technology. With an academic foundation rooted in technology (2A, 1B in my A/L Technology stream from Kingswood College), I am also a Machine Learning enthusiast and base my current projects on the MERN stack combined with machine learning concepts.",
-  skills: [
-    { category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Redux', 'Next.js'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'REST APIs', 'GraphQL'] },
-    { category: 'Databases & Tools', items: ['MongoDB', 'PostgreSQL', 'Git', 'Docker', 'AWS (S3)'] },
-  ],
+  about: " 🧑‍💻I am a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express, React, Node.js). I focus on creating high-performance, accessible, and responsive user experiences using modern technologies like React and Tailwind CSS. My main goal is to transform complex problems into elegant, production-ready solutions.I am currently pursuing a Bict (Hons) Specialized in Software Technology degree at the University of Sri Jayewardenepura, Faculty of Technology. With an academic foundation rooted in technology (2A, 1B in my A/L Technology stream from Kingswood College), I am also a Machine Learning enthusiast and base my current projects on the MERN stack combined with machine learning concepts.",
+  skills: [{
+    category: 'Frontend',
+    items: [
+      { name: 'React', image: '/tech/react.png' },
+      { name: 'TypeScript', image: '/tech/typescript.png' },
+      { name: 'Tailwind CSS', image: '/tech/tailwind.png' },
+      { name: 'Redux', image: '/tech/redux.png' },
+      { name: 'Next.js', image: '/tech/nextjs.png' }, 
+    ], 
+  },
+  {
+    category: 'Backend',
+    items: [
+      { name: 'Node.js', image: '/tech/node.png' },
+      { name: 'Express', image: '/tech/express.png' },
+      { name: 'Python', image: '/tech/python.png' },
+      { name: 'REST APIs', image: '/tech/rest.png' },
+      { name: 'GraphQL', image: '/tech/graphql.png' },
+    ],
+  },
+  {
+    category: 'Databases & Tools',
+    items: [
+      { name: 'MongoDB', image: '/tech/mongodb.png' },
+      { name: 'PostgreSQL', image: '/tech/postgresql.png' },
+      { name: 'Git', image: '/tech/git.png' },
+      { name: 'Docker', image: '/tech/docker.png' },
+      { name: 'AWS (S3)', image: '/tech/aws-s3.png' },
+    ],
+  },],
   projects: [
     {
       title: "InternLink project",

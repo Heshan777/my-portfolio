@@ -98,7 +98,15 @@ const HeroSection = ({ name, title, tagline }) => {
                             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-gray-900 bg-yellow-400 hover:bg-yellow-300 transform transition duration-300 hover:scale-105 hover:shadow-yellow-500/50"
                         >
                             View My Work
-                        </a>
+                        </a> 
+                        <a
+    href="/resume.pdf"
+    download
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-gray-900 bg-yellow-400 hover:bg-yellow-300 transform transition duration-300 hover:scale-105 hover:shadow-yellow-500/50 ml-4"
+  >
+    Download Resume
+  </a>
+                        
                     </div>
                 </div>
 
