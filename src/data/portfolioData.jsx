@@ -40,19 +40,29 @@ export const PORTFOLIO_DATA = {
       title: "InternLink project",
       description: "Bridging the Gap Between Students and Companies This project tackles a critical challenge in the internship ecosystem – the disconnect between students seeking relevant opportunities and companies looking for qualified candidates",
       tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:7373335846382395393/"
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7373335846382395393/",
+      image: "/projects/internlink.png"
     },
     {
       title: "Real-Time Face Recognition Web App",
       description: "Real-Time Face Recognition Web App using Flask, OpenCV & MongoDB I built a full-stack face recognition web application with powerful real-time capabilities and smart automation features:",
       tags: ['Python', 'Flask', 'OpenCV', 'HTML/CSS'],
-      link: "https://www.linkedin.com/in/sachintha-heshan-940a4b221/recent-activity/all/"
+      link: "https://www.linkedin.com/in/sachintha-heshan-940a4b221/recent-activity/all/",
+      image: "/projects/facerecognition.png"
     },
     {
       title: "Portfolio v2",
-      description: "This very portfolio! Designed and built from scratch using pure React functional components and highly optimized Tailwind CSS for a minimal, fast, and responsive user interface.",
+      description: "This portfolio! Designed and built from scratch using pure React functional components and highly optimized Tailwind CSS for a minimal, fast, and responsive user interface.",
       tags: ['React', 'Tailwind CSS', 'Responsiveness'],
-      link: "#"
+      link: "#",
+      image: "/projects/portfolio.png"
+    },
+    {
+      title: "Crystal beauty website",
+      description: "This website based on MERN stack use vercel for frontend hosting using pure React functional components and highly optimized Tailwind CSS for a minimal, fast, and responsive user interface.",
+      tags: ['React', 'Tailwind CSS', 'Responsiveness'],
+      link: "#",
+      image: "/projects/crystal.png"
     },
   ],
   contact: {
