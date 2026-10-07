@@ -64,6 +64,13 @@ export const PORTFOLIO_DATA = {
       link: "#",
       image: "/projects/crystal.png"
     },
+    {
+      title: "VoiceSense AI: Call Center QA",
+      description: "Developed during my internship at SLT-Mobitel Digital Lab, VoiceSense AI automates call center quality assurance by combining Google Gemini transcription and VADER sentiment analysis across a 16-criteria QA scorecard. I managed the end-to-end deployment on AWS EC2 using Docker and NGINX to deliver scalable, AI-driven performance evaluations.",
+      tags: ['Gemini API', 'VADER', 'AWS EC2', 'Docker', 'NGINX'],
+      link: "http://voicesence.sltdigitallab.lk/",
+      image: "/projects/voicesense.png"
+    },
   ],
   contact: {
     email: "sachinthaweerakoon81@gmail.com",
