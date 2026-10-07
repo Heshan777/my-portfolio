@@ -78,6 +78,13 @@ export const PORTFOLIO_DATA = {
       link: "#",
       image: "/projects/wedding-invitation.png"
     },
+    {
+      title: "DrivePass LK: Driving Exam Preparation App",
+      description: "Developed the front-end interface for a mobile driving license exam preparation app with structured learning modules, 40-question practice papers, gamified 3D illustrations, bottom navigation for Home, Lessons, Shop, Learners, and Reports, and user profile management. The dashboard also includes an integrated AI Assistant for interactive learner support.",
+      tags: ['Mobile UI/UX', 'AI Integration', 'Flutter'],
+      link: "#",
+      image: "/projects/drivepass.png"
+    },
   ],
   contact: {
     email: "sachinthaweerakoon81@gmail.com",
