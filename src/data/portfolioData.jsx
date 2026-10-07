@@ -71,6 +71,13 @@ export const PORTFOLIO_DATA = {
       link: "http://voicesence.sltdigitallab.lk/",
       image: "/projects/voicesense.png"
     },
+    {
+      title: "Digital Wedding Invitation Platform",
+      description: "A dynamic digital wedding and homecoming invitation platform with personalized couple URLs, English, Sinhala, and Tamil language support, theme toggling, cinematic pre-shoot films, and portrait galleries. It also includes a secure authenticated admin dashboard for managing invitations, relational data through Prisma, and automated CI/CD deployment with GitHub Actions.",
+      tags: ['Next.js', 'TypeScript', 'Prisma', 'GitHub Actions (CI/CD)'],
+      link: "#",
+      image: "/projects/wedding-invitation.png"
+    },
   ],
   contact: {
     email: "sachinthaweerakoon81@gmail.com",
